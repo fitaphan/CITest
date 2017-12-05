@@ -3,9 +3,9 @@ exports.config = {
     specs: [
         './test/**/*.js'
     ],
-    host: '127.0.0.1',
+    host: 'hub',
     port: 4444,
-    services: ['selenium-standalone'],
+    //services: ['selenium-standalone'],
     capabilities: [{
         maxInstances: 3,
         browserName: 'chrome'
